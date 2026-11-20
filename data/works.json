@@ -1,0 +1,272 @@
+{
+    "series": [
+        {
+            "id": "atisbos",
+            "name": "Atisbos",
+            "subtitle": "Serie de retratos al óleo",
+            "year": 2026,
+            "statement": [
+                "En esta serie, el retrato opera como una frontera entre lo revelado y lo latente. Trabajo a partir de rostros detenidos en su estado más íntimo: una mirada que se eleva buscando la luz, el gesto suspendido de una boca que está por decir algo, o la inclinación silenciosa de una cabeza que se vuelve hacia adentro. Son caras atravesadas por un juego dramático de luces y sombras.",
+                "Cada obra habita deliberadamente el territorio de lo inconcluso: hay zonas donde el pincel se detiene y cede su lugar al vacío, permitiendo que las facciones se fundan con la materia del soporte. No pienso esta renuncia a la totalidad como una ausencia o una falta, sino como un espacio activo: el umbral exacto donde el sujeto se vuelve misterio y donde el espectador es invitado a completar lo invisible.",
+                "A través de la pintura al óleo sobre MDF, construyo la forma mediante planos de luz precisos que, al aproximarse a los límites del rostro, se deshacen e integran a la preparación del fondo, dejando apenas un rastro, un indicio: un atisbo."
+            ]
+        }
+    ],
+    "works": [
+        {
+            "id": 1,
+            "slug": "atisbo-i",
+            "title": "Atisbo I",
+            "name": "Ascenso",
+            "seriesId": "atisbos",
+            "technique": "Óleo sobre MDF",
+            "dimensions": {
+                "width": 35,
+                "height": 50,
+                "unit": "cm"
+            },
+            "year": 2026,
+            "price": 350000,
+            "currency": "ARS",
+            "available": true,
+            "featured": false,
+            "images": [
+                "/images/Atisbo_I/01.png",
+                "/images/Atisbo_I/02.png",
+                "/images/Atisbo_I/03.png"
+            ]
+        },
+        {
+            "id": 2,
+            "slug": "atisbo-ii",
+            "title": "Atisbo II",
+            "name": "Plegaria",
+            "seriesId": "atisbos",
+            "technique": "Óleo sobre MDF",
+            "dimensions": {
+                "width": 35,
+                "height": 50,
+                "unit": "cm"
+            },
+            "year": 2026,
+            "price": 350000,
+            "currency": "ARS",
+            "available": true,
+            "featured": false,
+            "images": [
+                "/images/Atisbo_II/01.png",
+                "/images/Atisbo_II/02.png",
+                "/images/Atisbo_II/03.png"
+            ]
+        },
+        {
+            "id": 3,
+            "slug": "atisbo-iii",
+            "title": "Atisbo III",
+            "name": "Desvío",
+            "seriesId": "atisbos",
+            "technique": "Óleo sobre MDF",
+            "dimensions": {
+                "width": 35,
+                "height": 50,
+                "unit": "cm"
+            },
+            "year": 2026,
+            "price": 350000,
+            "currency": "ARS",
+            "available": true,
+            "featured": false,
+            "images": [
+                "/images/Atisbo_III/01.png",
+                "/images/Atisbo_III/02.png",
+                "/images/Atisbo_III/03.png"
+            ]
+        },
+        {
+            "id": 4,
+            "slug": "atisbo-iv",
+            "title": "Atisbo IV",
+            "name": "Vigilia",
+            "seriesId": "atisbos",
+            "technique": "Óleo sobre MDF",
+            "dimensions": {
+                "width": 35,
+                "height": 50,
+                "unit": "cm"
+            },
+            "year": 2026,
+            "price": 350000,
+            "currency": "ARS",
+            "available": true,
+            "featured": false,
+            "images": [
+                "/images/Atisbo_IV/01.png",
+                "/images/Atisbo_IV/02.jpg",
+                "/images/Atisbo_IV/03.png"
+            ]
+        },
+        {
+            "id": 6,
+            "slug": "atisbo-vi",
+            "title": "Atisbo VI",
+            "name": "Invocación",
+            "seriesId": "atisbos",
+            "technique": "Óleo sobre MDF",
+            "dimensions": {
+                "width": 35,
+                "height": 50,
+                "unit": "cm"
+            },
+            "year": 2026,
+            "price": 350000,
+            "currency": "ARS",
+            "available": true,
+            "featured": true,
+            "images": [
+                "/images/Atisbo_VI/01.png",
+                "/images/Atisbo_VI/02.png",
+                "/images/Atisbo_VI/03.png"
+            ]
+        },
+        {
+            "id": 7,
+            "slug": "atisbo-vii",
+            "title": "Atisbo VII",
+            "name": "Áspid",
+            "seriesId": "atisbos",
+            "technique": "Óleo sobre MDF",
+            "dimensions": {
+                "width": 35,
+                "height": 50,
+                "unit": "cm"
+            },
+            "year": 2026,
+            "price": 350000,
+            "currency": "ARS",
+            "available": true,
+            "featured": false,
+            "images": [
+                "/images/Atisbo_VII/01.png",
+                "/images/Atisbo_VII/02.png",
+                "/images/Atisbo_VII/03.png"
+            ]
+        },
+        {
+            "id": 8,
+            "slug": "atisbo-viii",
+            "title": "Atisbo VIII",
+            "name": "Guardián del alba",
+            "seriesId": "atisbos",
+            "technique": "Óleo sobre MDF",
+            "dimensions": {
+                "width": 35,
+                "height": 50,
+                "unit": "cm"
+            },
+            "year": 2026,
+            "price": 350000,
+            "currency": "ARS",
+            "available": false,
+            "featured": false,
+            "images": [
+                "/images/Atisbo_VIII/01.png",
+                "/images/Atisbo_VIII/02.png",
+                "/images/Atisbo_VIII/03.png"
+            ]
+        },
+        {
+            "id": 9,
+            "slug": "atisbo-ix",
+            "title": "Atisbo IX",
+            "name": "Lágrima de luz",
+            "seriesId": "atisbos",
+            "technique": "Óleo sobre MDF",
+            "dimensions": {
+                "width": 35,
+                "height": 50,
+                "unit": "cm"
+            },
+            "year": 2026,
+            "price": 350000,
+            "currency": "ARS",
+            "available": true,
+            "featured": true,
+            "images": [
+                "/images/Atisbo_IX/01.png",
+                "/images/Atisbo_IX/02.png",
+                "/images/Atisbo_IX/03.png",
+                "/images/Atisbo_IX/04.png",
+                "/images/Atisbo_IX/05.png"
+            ]
+        },
+        {
+            "id": 10,
+            "slug": "atisbo-x",
+            "title": "Atisbo X",
+            "name": "Éxtasis de barro",
+            "seriesId": "atisbos",
+            "technique": "Óleo sobre MDF",
+            "dimensions": {
+                "width": 35,
+                "height": 50,
+                "unit": "cm"
+            },
+            "year": 2026,
+            "price": 350000,
+            "currency": "ARS",
+            "available": true,
+            "featured": true,
+            "images": [
+                "/images/Atisbo_X/01.png",
+                "/images/Atisbo_X/02.png",
+                "/images/Atisbo_X/03.png"
+            ]
+        },
+        {
+            "id": 11,
+            "slug": "atisbo-xi",
+            "title": "Atisbo XI",
+            "name": "Arquitectura del silencio",
+            "seriesId": "atisbos",
+            "technique": "Óleo sobre MDF",
+            "dimensions": {
+                "width": 35,
+                "height": 50,
+                "unit": "cm"
+            },
+            "year": 2026,
+            "price": 350000,
+            "currency": "ARS",
+            "available": true,
+            "featured": false,
+            "images": [
+                "/images/Atisbo_XI/01.png",
+                "/images/Atisbo_XI/02.png",
+                "/images/Atisbo_XI/03.png"
+            ]
+        },
+        {
+            "id": 12,
+            "slug": "atisbo-xii",
+            "title": "Atisbo XII",
+            "name": "Corona de lo efímero",
+            "seriesId": "atisbos",
+            "technique": "Óleo sobre MDF",
+            "dimensions": {
+                "width": 35,
+                "height": 50,
+                "unit": "cm"
+            },
+            "year": 2026,
+            "price": 350000,
+            "currency": "ARS",
+            "available": false,
+            "featured": false,
+            "images": [
+                "/images/Atisbo_XII/01.png",
+                "/images/Atisbo_XII/02.png",
+                "/images/Atisbo_XII/03.png"
+            ]
+        }
+    ]
+}
