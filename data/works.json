@@ -31,9 +31,9 @@
             "available": true,
             "featured": false,
             "images": [
-                "/images/Atisbo_I/01.png",
-                "/images/Atisbo_I/02.png",
-                "/images/Atisbo_I/03.png"
+                "/images/Atisbo_I/01.jpg",
+                "/images/Atisbo_I/02.jpg",
+                "/images/Atisbo_I/03.jpg"
             ]
         },
         {
@@ -54,9 +54,9 @@
             "available": true,
             "featured": false,
             "images": [
-                "/images/Atisbo_II/01.png",
-                "/images/Atisbo_II/02.png",
-                "/images/Atisbo_II/03.png"
+                "/images/Atisbo_II/01.jpg",
+                "/images/Atisbo_II/02.jpg",
+                "/images/Atisbo_II/03.jpg"
             ]
         },
         {
@@ -77,9 +77,9 @@
             "available": true,
             "featured": false,
             "images": [
-                "/images/Atisbo_III/01.png",
-                "/images/Atisbo_III/02.png",
-                "/images/Atisbo_III/03.png"
+                "/images/Atisbo_III/01.jpg",
+                "/images/Atisbo_III/02.jpg",
+                "/images/Atisbo_III/03.jpg"
             ]
         },
         {
@@ -100,9 +100,9 @@
             "available": true,
             "featured": false,
             "images": [
-                "/images/Atisbo_IV/01.png",
+                "/images/Atisbo_IV/01.jpg",
                 "/images/Atisbo_IV/02.jpg",
-                "/images/Atisbo_IV/03.png"
+                "/images/Atisbo_IV/03.jpg"
             ]
         },
         {
@@ -123,9 +123,9 @@
             "available": true,
             "featured": true,
             "images": [
-                "/images/Atisbo_VI/01.png",
-                "/images/Atisbo_VI/02.png",
-                "/images/Atisbo_VI/03.png"
+                "/images/Atisbo_VI/01.jpg",
+                "/images/Atisbo_VI/02.jpg",
+                "/images/Atisbo_VI/03.jpg"
             ]
         },
         {
@@ -146,9 +146,9 @@
             "available": true,
             "featured": false,
             "images": [
-                "/images/Atisbo_VII/01.png",
-                "/images/Atisbo_VII/02.png",
-                "/images/Atisbo_VII/03.png"
+                "/images/Atisbo_VII/01.jpg",
+                "/images/Atisbo_VII/02.jpg",
+                "/images/Atisbo_VII/03.jpg"
             ]
         },
         {
@@ -169,9 +169,9 @@
             "available": false,
             "featured": false,
             "images": [
-                "/images/Atisbo_VIII/01.png",
-                "/images/Atisbo_VIII/02.png",
-                "/images/Atisbo_VIII/03.png"
+                "/images/Atisbo_VIII/01.jpg",
+                "/images/Atisbo_VIII/02.jpg",
+                "/images/Atisbo_VIII/03.jpg"
             ]
         },
         {
@@ -192,11 +192,11 @@
             "available": true,
             "featured": true,
             "images": [
-                "/images/Atisbo_IX/01.png",
-                "/images/Atisbo_IX/02.png",
-                "/images/Atisbo_IX/03.png",
-                "/images/Atisbo_IX/04.png",
-                "/images/Atisbo_IX/05.png"
+                "/images/Atisbo_IX/01.jpg",
+                "/images/Atisbo_IX/02.jpg",
+                "/images/Atisbo_IX/03.jpg",
+                "/images/Atisbo_IX/04.jpg",
+                "/images/Atisbo_IX/05.jpg"
             ]
         },
         {
@@ -217,9 +217,9 @@
             "available": true,
             "featured": true,
             "images": [
-                "/images/Atisbo_X/01.png",
-                "/images/Atisbo_X/02.png",
-                "/images/Atisbo_X/03.png"
+                "/images/Atisbo_X/01.jpg",
+                "/images/Atisbo_X/02.jpg",
+                "/images/Atisbo_X/03.jpg"
             ]
         },
         {
@@ -240,9 +240,9 @@
             "available": true,
             "featured": false,
             "images": [
-                "/images/Atisbo_XI/01.png",
-                "/images/Atisbo_XI/02.png",
-                "/images/Atisbo_XI/03.png"
+                "/images/Atisbo_XI/01.jpg",
+                "/images/Atisbo_XI/02.jpg",
+                "/images/Atisbo_XI/03.jpg"
             ]
         },
         {
@@ -263,9 +263,9 @@
             "available": false,
             "featured": false,
             "images": [
-                "/images/Atisbo_XII/01.png",
-                "/images/Atisbo_XII/02.png",
-                "/images/Atisbo_XII/03.png"
+                "/images/Atisbo_XII/01.jpg",
+                "/images/Atisbo_XII/02.jpg",
+                "/images/Atisbo_XII/03.jpg"
             ]
         }
     ]
