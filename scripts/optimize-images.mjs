@@ -14,8 +14,10 @@ import sharp from "sharp";
 const ROOT = path.resolve(import.meta.dirname, "..");
 const IMAGES_DIR = path.join(ROOT, "public", "images");
 
-const MAX_SIDE = 2000;
-const QUALITY = 82;
+// Archivos maestros: next/image genera desde acá las versiones livianas
+// (AVIF/WebP) que recibe el visitante, así que conviene que sean de alta calidad.
+const MAX_SIDE = 3000;
+const QUALITY = 92;
 
 // En Windows, el caché de sharp mantiene abiertos los archivos leídos
 // y no deja sobrescribirlos.
@@ -41,9 +43,13 @@ const toJpeg = (input) =>
             fit: "inside",
             withoutEnlargement: true,
         })
+        // Enfoque leve para compensar la suavidad que deja el achicado.
+        .sharpen({ sigma: 0.5 })
         .flatten({ background: "#ffffff" })
-        .toColorspace("srgb")
-        .jpeg({ quality: QUALITY, mozjpeg: true })
+        // Convierte desde el perfil original (p. ej. Display P3 del iPhone)
+        // a sRGB y lo deja incrustado.
+        .withIccProfile("srgb")
+        .jpeg({ quality: QUALITY, mozjpeg: true, chromaSubsampling: "4:4:4" })
         .toBuffer();
 
 const formatKb = (bytes) => `${Math.round(bytes / 1024)} KB`;

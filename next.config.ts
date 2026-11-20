@@ -5,6 +5,11 @@ const nextConfig: NextConfig = {
   experimental: {
     agentFeedback: true,
   },
+  images: {
+    formats: ["image/avif", "image/webp"],
+    // Debe coincidir con IMAGE_QUALITY (constants/images.ts).
+    qualities: [75, 90],
+  },
   cacheComponents: true,
   partialPrefetching: true,
   turbopack: {

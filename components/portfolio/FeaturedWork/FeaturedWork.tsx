@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { IMAGE_QUALITY } from "@/constants/images";
 import Link from "next/link";
 import { SoldDot } from "../../common/SoldDot/SoldDot";
 import { getWorkHref } from "@/helpers/routes";
@@ -20,6 +21,7 @@ export const FeaturedWork = ({ work }: FeaturedWorkProps) => {
                 alt={getWorkAlt(work)}
                 fill
                 sizes="(max-width: 1024px) 100vw, 33vw"
+                quality={IMAGE_QUALITY.high}
                 className="object-cover"
             />
 

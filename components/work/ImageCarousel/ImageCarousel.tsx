@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { IMAGE_QUALITY } from "@/constants/images";
 import { AnimatePresence, motion, type PanInfo } from "motion/react";
 import { CarouselControls } from "./CarouselControls";
 import { CarouselThumbnails } from "./CarouselThumbnails";
@@ -50,6 +51,7 @@ export const ImageCarousel = ({ images, alt }: ImageCarouselProps) => {
                             alt={`${alt} — imagen ${index + 1} de ${images.length}`}
                             fill
                             sizes="(max-width: 1024px) 100vw, 60vw"
+                            quality={IMAGE_QUALITY.high}
                             draggable={false}
                             loading={index === 0 ? "eager" : "lazy"}
                             className="object-contain p-8 tablet:p-6 mobile:p-4 pointer-events-none select-none"
