@@ -34,8 +34,8 @@ export const Hero = () => {
             </p>
 
             <p className="font-feature-display max-w-md p-4 text-sm mobile:text-xs text-center">
-                Pintor dedicado a la exploración del retrato al óleo. Atisbos
-                es su serie de retratos 2026.
+                Exploro el retrato al óleo. Atisbos es mi serie de retratos
+                de 2026.
             </p>
 
             <p className="font-suomi-hand-script text-2xl mobile:text-lg">

@@ -11,6 +11,12 @@ const SECTIONS = [
         href: ROUTES.portfolio,
     },
     {
+        title: "Sobre mí",
+        description:
+            "Biografía, formación y el taller donde nace la serie Atisbos.",
+        href: ROUTES.about,
+    },
+    {
         title: "Contacto",
         description:
             "Consultas sobre obras, exhibiciones y colaboraciones.",

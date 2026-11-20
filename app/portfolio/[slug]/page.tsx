@@ -2,10 +2,12 @@ import { Suspense } from "react";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { WorkSkeleton, WorkView } from "@/components/work";
+import { SITE } from "@/constants/site";
+import { getWorkHref } from "@/helpers/routes";
 import {
     getWorkAlt,
     getWorkBySlug,
-    getWorkCover,
+    getWorkDescription,
     getWorks,
 } from "@/helpers/works";
 
@@ -21,10 +23,23 @@ export async function generateMetadata({
     const work = getWorkBySlug(slug);
     if (!work) return {};
 
+    const title = getWorkAlt(work);
+    const description = getWorkDescription(work);
+
+    // La imagen para compartir sale de ./opengraph-image.tsx.
+    // `openGraph` reemplaza al del layout, por eso se repiten siteName y locale.
     return {
-        title: getWorkAlt(work),
-        description: [work.technique, work.year].filter(Boolean).join(" · "),
-        openGraph: { images: [getWorkCover(work)] },
+        title,
+        description,
+        alternates: { canonical: getWorkHref(slug) },
+        openGraph: {
+            type: "website",
+            siteName: SITE.name,
+            locale: SITE.ogLocale,
+            title: `${title} — ${SITE.name}`,
+            description,
+            url: getWorkHref(slug),
+        },
     };
 }
 

@@ -1,4 +1,5 @@
 import { BuyButton } from "../BuyButton/BuyButton";
+import { PurchaseInfo } from "../PurchaseInfo/PurchaseInfo";
 import { SoldDot } from "../../common/SoldDot/SoldDot";
 import { SOLD_LABEL } from "@/constants/sale";
 import { formatPrice } from "@/helpers/format";
@@ -37,6 +38,7 @@ export const WorkSaleStatus = ({ work, labelClassName }: WorkSaleStatusProps) =>
                 </span>
             </div>
             <BuyButton work={work} />
+            <PurchaseInfo labelClassName={labelClassName} />
         </div>
     );
 };

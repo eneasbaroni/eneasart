@@ -3,8 +3,10 @@ export const SITE = {
     title: "Eneas — Pintor",
     description:
         "Eneas — Pintor dedicado a la exploración del retrato al óleo. Córdoba, Argentina.",
+    url: "https://eneasart.com.ar",
     location: "Córdoba, Argentina",
     locale: "es-AR",
+    ogLocale: "es_AR",
     foundedYear: 2026,
 } as const;
 

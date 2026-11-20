@@ -12,7 +12,9 @@ export const getFeaturedWorks = (): Work[] =>
 export const getWorkBySlug = (slug: string): Work | undefined =>
     data.works.find((work) => work.slug === slug);
 
-export const getSeriesById = (id: string | null): Series | undefined =>
+export const getAllSeries = (): Series[] => data.series;
+
+export const getSeriesById =(id: string | null): Series | undefined =>
     id ? data.series.find((series) => series.id === id) : undefined;
 
 export const getWorkCover = (work: Work): string => work.images[0];
@@ -39,6 +41,13 @@ export const getWorkSpecs = (work: Work): WorkSpec[] => {
 
     return specs.filter((spec): spec is WorkSpec => spec !== null);
 };
+
+/** Descripción breve para metadatos: "Óleo sobre MDF · 35 × 50 cm · 2026". */
+export const getWorkDescription = (work: Work): string =>
+    getWorkSpecs(work)
+        .filter(({ label }) => label !== "Serie")
+        .map(({ value }) => value)
+        .join(" · ");
 
 export const getAdjacentWorks = (slug: string) => {
     const index = data.works.findIndex((work) => work.slug === slug);

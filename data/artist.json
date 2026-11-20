@@ -1,0 +1,36 @@
+{
+    "biography": [
+        "Eneas (Córdoba, Argentina, 1989) es un pintor dedicado a la exploración del retrato al óleo. Arquitecto de formación, con estudios en diseño gráfico, desarrolló su práctica pictórica de manera autodidacta a lo largo de más de una década, complementándola con cursos de los pintores Ricardo Celma y Sean Cheetham.",
+        "Su obra transitó desde un retrato de corte más gestual y abstracto, cercano al de pintores como Andrew Salgado y Kai Samuels-Davis, hacia un realismo contemporáneo donde conviven el rigor de la observación y la soltura de la pintura directa. Se nutre de la herencia técnica de John Singer Sargent y Anders Zorn, y dialoga con la mirada cruda de referentes de la figuración actual como Jenny Saville y Alex Kanevsky.",
+        "Su formación de arquitecto se revela en la estructura misma de la obra: el rostro se construye a partir de planos de luz y sombra que delimitan el volumen. En su serie actual, Atisbos, esa lógica constructiva se cruza con la intuición, y la figura queda deliberadamente inconclusa.",
+        "Vive y trabaja en Córdoba, Argentina."
+    ],
+    "education": [
+        { "area": "Arquitectura", "detail": "Título de arquitecto" },
+        { "area": "Diseño gráfico", "detail": "Estudios" },
+        { "area": "Pintura", "detail": "Curso online con Ricardo Celma" },
+        { "area": "Pintura", "detail": "Curso online con Sean Cheetham" }
+    ],
+    "exhibitions": [],
+    "studioPhotos": [
+        {
+            "src": "/images/Otros/IMG_6427.png",
+            "alt": "Obras de la serie Atisbos en el taller",
+            "width": 1500,
+            "height": 2000
+        },
+        {
+            "src": "/images/Otros/IMG_6432.png",
+            "alt": "Retratos de la serie Atisbos apoyados en el taller",
+            "width": 1500,
+            "height": 2000
+        },
+        {
+            "src": "/images/Otros/IMG_6434.png",
+            "alt": "Detalle de retratos de la serie Atisbos en el taller",
+            "width": 1500,
+            "height": 2000
+        }
+    ],
+    "dossier": null
+}
