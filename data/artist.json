@@ -32,5 +32,8 @@
             "height": 2000
         }
     ],
-    "dossier": null
+    "dossier": {
+        "label": "DESCARGAR DOSSIER (PDF)",
+        "href": "/dossier/dossier-atisbos-eneas.pdf"
+    }
 }
