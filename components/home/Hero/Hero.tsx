@@ -9,7 +9,7 @@ export const Hero = () => {
     const { hero } = SITE_IMAGES;
 
     return (
-        <section className="w-full min-h-screen relative flex flex-col items-center justify-center gap-4 pt-20 pb-32">
+        <section className="w-full min-h-svh relative flex flex-col items-center justify-center gap-4 pt-20 pb-32">
             <Image
                 src={hero.src}
                 alt={hero.alt}

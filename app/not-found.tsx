@@ -3,7 +3,7 @@ import { ROUTES } from "@/constants/navigation";
 
 export default function NotFound() {
     return (
-        <main className="flex w-full min-h-screen flex-col items-center justify-center gap-4 px-4">
+        <main className="flex w-full min-h-svh flex-col items-center justify-center gap-4 px-4">
             <h1 className="font-feature-display uppercase text-9xl tablet:text-7xl mobile:text-5xl tracking-tight">
                 404
             </h1>

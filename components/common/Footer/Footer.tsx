@@ -20,7 +20,7 @@ export const Footer = () => {
     if (pathname === ROUTES.contact) return null;
 
     return (
-        <footer className="w-full min-h-dvh flex flex-col">
+        <footer className="w-full min-h-svh flex flex-col">
             <div className="mt-auto flex flex-col">
                 <Link
                     href={ROUTES.contact}

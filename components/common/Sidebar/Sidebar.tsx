@@ -15,7 +15,7 @@ export const Sidebar = () => {
     return (
         <>
             <aside
-                className={`fixed left-0 top-0 z-70 h-screen w-16 tablet:w-12 transition-colors duration-1000 ease-[cubic-bezier(0.76,0,0.24,1)] ${
+                className={`fixed inset-y-0 left-0 z-70 w-16 tablet:w-12 transition-colors duration-1000 ease-[cubic-bezier(0.76,0,0.24,1)] ${
                     isOpen ? "bg-black text-white" : "bg-background"
                 }`}
             >

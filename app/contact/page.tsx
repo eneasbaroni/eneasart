@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function ContactPage() {
     return (
-        <main className="relative flex w-full min-h-screen flex-col items-center justify-center pt-12 pb-40">
+        <main className="relative flex w-full min-h-svh flex-col items-center justify-center pt-12 pb-40">
             <h1 className="w-full text-center">
                 <span className="block font-feature-display uppercase text-9xl tablet:text-7xl mobile:text-5xl tracking-tight">
                     Hablemos
